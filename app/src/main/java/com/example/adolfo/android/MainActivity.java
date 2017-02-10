@@ -77,7 +77,6 @@ public class MainActivity extends Activity implements SensorEventListener{
         bRotar = (ImageButton) findViewById(R.id.bRotar);
         bLuz = (ImageButton) findViewById(R.id.bLuz);
         bSensor = (ImageButton) findViewById(R.id.bSensor);
-       // bSensor.setColorFilter(Color.argb(255,196,42,26));
 
 
 
@@ -230,12 +229,10 @@ public class MainActivity extends Activity implements SensorEventListener{
 
     public void pulsarSensor(View v){
         if(flag){
-            //bSensor.setColorFilter(Color.argb(255,196,42,26));
             bSensor.setBackgroundResource(R.drawable.on);
             flag=false;
         }
         else{
-           // bSensor.setColorFilter(Color.argb(255,97,196,84));
             bSensor.setBackgroundResource(R.drawable.onn);
             flag=true;}
     }
