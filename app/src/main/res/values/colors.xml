@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="linearSeparador">#696969</color>
+    <color name="colorText">#3e170a</color>
+    <color name="colorOff">#c42a1a</color>
+    <color name="colorBack">#66998e8a</color>
+    <color name="colorOn">#61c454</color>
+    <color name="colorSides">#b70142ce</color>
+    <color name="colorTran">#00ffffff</color>
+    <color name="colorMec">#ffcc40</color>
+</resources>
